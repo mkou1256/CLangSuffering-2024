@@ -6,6 +6,5 @@
 5. コメント
 6. [see the code](../../src/sec.2/problem6.c)
 
-
-
-test
+## わからないこと
+- C言語にもPEP8のような代表的な規則があるか？
