@@ -1,0 +1,14 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: c-suffering
+    volumes:
+      - ./data:/work/data
+      - ./docs:/work/docs
+      - ./src:/work/src
+      - .gitignore:/work/.gitignore
+    tty: true
+    user: "1000:1000"
