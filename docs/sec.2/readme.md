@@ -5,3 +5,7 @@
 4. インデント
 5. コメント
 6. [see the code](../../src/sec.2/problem6.c)
+
+
+
+test
